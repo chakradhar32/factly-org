@@ -52,7 +52,25 @@ const Footer = () => {
         <div sx={{
           display: 'flex',
           flexDirection: 'column',
-          maxWidth: '90px',
+          maxWidth: '102px',
+          justifyContent: 'center',
+          gap: '10px',
+          a: {
+            textDecoration: 'none',
+
+          }
+        }}>
+          <a href="#">About Factly</a>
+          <a href="#">Team</a>
+          <a href="#">Partners</a>
+          <a href="#">Accolades</a>
+          <a href="#">Careers</a>
+        </div>
+        <div sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          maxWidth: '102px',
+          justifyContent: 'center',
           gap: '10px',
           a: {
             textDecoration: 'none',
@@ -67,22 +85,8 @@ const Footer = () => {
         <div sx={{
           display: 'flex',
           flexDirection: 'column',
-          maxWidth: '90px',
-          gap: '10px',
-          a: {
-            textDecoration: 'none',
-          }
-        }}>
-          <a href="#">About Factly</a>
-          <a href="#">Team</a>
-          <a href="#">Partners</a>
-          <a href="#">Accolades</a>
-          <a href="#">Careers</a>
-        </div>
-        <div sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          maxWidth: '90px',
+          maxWidth: '102px',
+          justifyContent: 'center',
           gap: '10px',
           a: {
             textDecoration: 'none',

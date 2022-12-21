@@ -11,7 +11,7 @@ const Teams = () => {
       image: "/assets/images/teams.png",
       title: "Organization Team",
       description: "Lorem ipsum dolor ultra century lingiunl and bilingual text.",
-      link: "/"
+      link: "/details"
     },
     {
       image: "/assets/images/teams.png",

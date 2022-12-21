@@ -51,14 +51,14 @@ const About = () => {
             img: { height: '77px', width: '77px' },
           }}>
             <div sx={{ display: 'flex', gap: '28px' }}>
-              <img src="/assets/icons/content1.png" alt="" />
+              <img src="/assets/icons/content-one.png" alt="" />
               <div>
                 <h1>Mission</h1>
                 <p>Factly strives to cultivate civic participation and engaging citizens in accessing, understanding and using important government  data/information at various levels.</p>
               </div>
             </div>
             <div sx={{ display: 'flex', gap: '28px' }}>
-              <img src="/assets/icons/content1.png" alt="" />
+              <img src="/assets/icons/content-one.png" alt="" />
               <div>
                 <h1>Vision</h1>
                 <p>Factly will strive to transform the public information landscape in India by improving access & understanding of the common public about important government data/information and evolve into a reliable and significant resource in the context of public information &  governance.</p>

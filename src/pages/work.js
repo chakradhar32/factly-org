@@ -5,7 +5,6 @@ import { jsx } from 'theme-ui';
 import Services from '../components/Work/Services';
 import Header from '../components/Common/Header';
 import Form from '../components/Common/Form';
-import BackgroundPattern from '../components/Common/BackgroundPattern';
 
 
 const WorkPage = () => {

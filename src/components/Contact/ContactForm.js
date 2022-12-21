@@ -7,7 +7,7 @@ import Email from '../../../static/assets/icons/Email.svg'
 import Location from '../../../static/assets/icons/Location.svg'
 import Linkedin from '../../../static/assets/icons/Linkedinn.svg'
 import Twitter from '../../../static/assets/icons/twitter.svg'
-import Form from '../Common/Form';
+
 
 const ContactForm = () => {
   return (

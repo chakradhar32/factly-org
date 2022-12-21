@@ -91,7 +91,7 @@ const Members = () => {
       <div sx={{
         display: 'grid',
         gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
-        gridGap: '24px',
+        gridGap: '56px 24px',
       }}>
         {members.map((member) => (
           <Card data={{ ...member }} />

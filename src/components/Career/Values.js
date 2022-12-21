@@ -1,5 +1,4 @@
 /** @jsx jsx */
-import { Link } from 'gatsby'
 import React from 'react'
 import { jsx } from 'theme-ui'
 import Value from './Value'

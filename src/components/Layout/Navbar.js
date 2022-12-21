@@ -42,7 +42,7 @@ const Navbar = () => {
     },
     {
       name: 'Blog',
-      slug: '/'
+      slug: '/blog'
     },
   ]
 
