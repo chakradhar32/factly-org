@@ -7,6 +7,10 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+require('dotenv').config({
+  path: `.env`,
+});
+
 module.exports = {
   siteMetadata: {
     title: `factly-website`,
@@ -40,5 +44,13 @@ module.exports = {
         icon: `./static/assets/icons/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `@fyrepenguin/gatsby-source-dega`,
+      options: {
+        spaceId: process.env.SPACE_ID,
+        accessToken: process.env.ACCESS_TOKEN,
+        uri: process.env.API_ENDPOINT,
+      },
+    }
   ],
 }

@@ -1,15 +1,15 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import Index from '../components/Post'
+import Post from '../components/Post'
 import Form from '../components/Common/Form'
 
-const post = () => {
+const PostPage = () => {
   return (
     <Layout>
-      <Index />
+      <Post />
       <Form />
     </Layout>
   )
 }
 
-export default post
+export default PostPage
