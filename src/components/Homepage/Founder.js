@@ -29,7 +29,7 @@ const Founder = () => {
           flexDirection: 'column',
           gap: '28px',
           'h6, p': {
-            fontSize: '20px', fontFamily: 'Inter', fontWeight: '400', color: ' #E6E3D9',
+            variant: 'text.normal', fontFamily: 'Inter', fontWeight: '400', color: ' #E6E3D9',
             h4: { fontFamily: 'Inter' }
           }
         }}>
@@ -41,8 +41,8 @@ const Founder = () => {
             <p sx={{ mt: '16px' }}>We believe authentic data is the first step towards developing transparent systems.</p>
           </div>
           <div>
-            <h4 sx={{ fontSize: '20px', color: '#CE212B' }}>— RAKESH DUBBUDU</h4>
-            <h6 sx={{ fontSize: '16px' }}>Founder, Factly Media and Research</h6>
+            <h4 sx={{ variant: 'text.normal', color: '#CE212B' }}>— RAKESH DUBBUDU</h4>
+            <h6 sx={{ variant: 'text.sm', }}>Founder, Factly Media and Research</h6>
           </div>
         </div>
         <div sx={{ flex: '1 0 45%', maxWidth: '45%', position: 'relative', height: '100%', alignSelf: "flex-end" }}>

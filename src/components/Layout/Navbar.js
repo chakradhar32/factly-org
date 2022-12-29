@@ -1,7 +1,11 @@
 /** @jsx jsx */
 import React, { useState, useEffect } from 'react';
-import { FaChevronDown } from 'react-icons/fa';
 import { Link } from 'gatsby';
+import {
+  FaBars,
+  FaTimes,
+  FaChevronDown
+} from 'react-icons/fa';
 import { jsx } from 'theme-ui';
 
 const Navbar = () => {
@@ -155,21 +159,21 @@ const Navbar = () => {
                 )}
               </div>
             ))}
-          {/* {mobile && (
-              <button
-                sx={{
-                  all: 'unset',
-                  p: '0.5rem',
-                  cursor: 'pointer',
-                }}
-                aria-haspopup="true"
-                aria-controls="mobile-menu"
-                aria-expanded={menuVisible ? 'false' : 'true'}
-                onClick={() => setMenuVisible((prev) => !prev)}
-              >
-                {menuVisible ? <FaTimes /> : <FaBars />}
-              </button>
-            )} */}
+          {mobile && (
+            <button
+              sx={{
+                all: 'unset',
+                p: '0.5rem',
+                cursor: 'pointer',
+              }}
+              aria-haspopup="true"
+              aria-controls="mobile-menu"
+              aria-expanded={menuVisible ? 'false' : 'true'}
+              onClick={() => setMenuVisible((prev) => !prev)}
+            >
+              {menuVisible ? <FaTimes /> : <FaBars />}
+            </button>
+          )}
         </div>
 
         <div>

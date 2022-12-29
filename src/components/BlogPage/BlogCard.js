@@ -55,11 +55,11 @@ const BlogCard = () => {
         fontFamily: 'Montserrat',
         fontStyle: 'normal',
         fontWeight: 600,
-        fontSize: '36px',
+        variant: 'text.xl',
         lineHeight: '44px',
         color: '#CE212B',
         mb: '42px'
-      }}>All</h2>
+      }}>All Posts</h2>
       <div sx={{
         display: 'grid',
         gridTemplateColumns: 'repeat(auto-fit, minmax(316px, 1fr))',

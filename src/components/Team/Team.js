@@ -34,7 +34,7 @@ const Team = ({ data }) => {
               <div sx={{
                 fontFamily: 'Inter',
                 fontWeight: '400',
-                fontSize: '16px',
+                variant: 'text.sm',
                 color: '#667085',
                 mt: '16px',
               }} dangerouslySetInnerHTML={{ __html: description }}></div>
@@ -43,7 +43,7 @@ const Team = ({ data }) => {
               <Link to={link} sx={{
                 px: '20px', py: '10px', bg: '#F6F0F0', color: '#CE212B', fontFamily: 'Inter',
                 fontWeight: '500',
-                fontSize: '16px',
+                variant: 'text.sm',
                 borderRadius: '4px'
               }}>See all members</Link>
             </div>

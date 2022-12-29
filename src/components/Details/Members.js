@@ -64,7 +64,7 @@ const Members = () => {
           <h1 sx={{
             fontFamily: 'Montserrat',
             fontWeight: '600',
-            fontSize: '38px',
+            variant: 'text.xl',
             lineHeight: '28px',
             color: '#1E1E1E'
           }}
@@ -81,7 +81,7 @@ const Members = () => {
         <p sx={{
           fontFamily: 'Inter',
           fontWeight: '400',
-          fontSize: '20px',
+          variant: 'text.normal',
           lineHeight: '30px',
           color: '#6C6C6C',
           mt: '32px'

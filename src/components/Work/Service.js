@@ -36,12 +36,15 @@ const Service = ({ data }) => {
             <h1 sx={{
               fontFamily: 'Montserrat',
               fontWeight: '600',
-              fontSize: '36px',
+              variant: 'text.xl',
               lineHeight: '44px',
               color: '#CE212B',
               mb: '16px'
             }}>{title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: description }}></div>
+            <div sx={{
+              // padding: ['3rem', null, null, '2.5rem'],
+              // fontSize: ['1.25rem', null, '1.5rem', '1.75rem'],
+            }} dangerouslySetInnerHTML={{ __html: description }}></div>
           </div>
         </div>
         <div sx={{ maxWidth: '40%', flex: '1 0 40%' }} className='image-container'>

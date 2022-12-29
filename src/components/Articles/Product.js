@@ -14,7 +14,7 @@ const Product = ({ data }) => {
           display: 'flex', flexDirection: 'column', order: 1,
           maxWidth: 'calc(60% - 64px)',
           flex: '1 0 calc(60% - 64px)',
-          a: { fontSize: '16px', color: '#1E1E1E', fontFamily: 'inter', fontWeight: '500' }
+          a: { variant: 'text.sm', color: '#1E1E1E', fontFamily: 'inter', fontWeight: '500' }
         }}>
           <div sx={{
             p: {
@@ -29,7 +29,7 @@ const Product = ({ data }) => {
             <h1 sx={{
               fontFamily: 'Montserrat',
               fontWeight: '600',
-              fontSize: '36px',
+              variant: 'text.xl',
               lineHeight: '44px',
               color: '#CE212B'
             }}>{title}</h1>
@@ -56,7 +56,7 @@ const Product = ({ data }) => {
             <h4 sx={{
               fontFamily: 'Inter',
               fontWeight: '500',
-              fontSize: '16px',
+              variant: 'text.sm',
               color: '#1E1E1E'
             }}>Maturity: {status}</h4>
           </div>

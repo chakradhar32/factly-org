@@ -8,30 +8,30 @@ import SectionHeader from '../Common/SectionHeader'
 const WhatWeDo = () => {
   return (
     <section>
-      <div sx={{ maxWidth: '1066px', mx: 'auto', display: 'flex', flexDirection: 'column', gap: '108px', py: '100px' }}>
+      <div sx={{ maxWidth: '1066px', mx: 'auto', display: 'flex', flexDirection: 'column', gap: '108px', pb: '100px', pt: '60px' }}>
 
         <SectionHeader title="What we do?"
           description='Connect your tools, connect your teams. With over 100 apps already available in our directory, your team’s favourite tools are just a click away.' />
         <div>
           <div sx={{
+            padding: ['28px', null, null, '0px'],
             display: 'grid',
-            gridTemplateColumns: 'auto auto auto',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(316px, 1fr))',
             gridGap: '48px',
             h1: {
               fontSize: '24px',
               fontFamily: 'Montserrat',
               fontWeight: '600',
-              fontSize: '24px',
               color: '#CE212B'
             },
             p: {
               fontFamily: 'Inter',
               fontWeight: '400',
-              fontSize: '16px',
+              variant: 'text.sm',
               color: '#1E1E1E'
             },
             a: {
-              color: '#1E1E1E', fontWeight: '700', fontSize: '16px'
+              color: '#1E1E1E', fontWeight: '700', variant: 'text.sm',
             }
           }}>
             <div sx={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>

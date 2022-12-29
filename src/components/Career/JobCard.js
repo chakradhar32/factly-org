@@ -12,7 +12,7 @@ const JobCard = ({ data }) => {
         <h4 sx={{
           fontFamily: 'Montserrat',
           fontWeight: 600,
-          fontSize: '24px',
+          variant: 'text.lg',
           lineHeight: '30px',
           color: '#5B5B5B'
         }}>{title}</h4>

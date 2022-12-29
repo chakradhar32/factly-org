@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import React from 'react'
 import { jsx } from 'theme-ui'
-import { Link } from 'gatsby'
 import SectionHeader from '../Common/SectionHeader'
 
 const Support = () => {
@@ -13,7 +12,7 @@ const Support = () => {
           title='Over 20 partners and supporters'
           description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry' s standard dummy text ever since the 1500s'"
         />
-        <div sx={{ display: 'flex', justifyContent: 'space-between' }}>
+        <div sx={{ display: 'flex', justifyContent: 'space-between', }}>
           <img src="/assets/icons/IFCN.png" alt="" />
           <img src="/assets/icons/digital.png" alt="" />
           <img src="/assets/icons/Govt.png" alt="" />

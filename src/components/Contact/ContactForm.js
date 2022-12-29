@@ -33,7 +33,7 @@ const ContactForm = () => {
           h4: {
             fontFamily: 'Montserrat',
             fontWeight: 600,
-            fontSize: '20px',
+            variant: 'text.normal',
             color: '#5B5B5B'
           }
         }}
@@ -43,7 +43,7 @@ const ContactForm = () => {
             sx={{
               fontFamily: 'Montserrat',
               fontWeight: '600',
-              fontSize: '30px',
+              variant: 'text.lg',
               lineHeight: '44px',
               color: '#CE212B'
             }}
@@ -128,7 +128,7 @@ const ContactForm = () => {
 
 
 
-      <div sx={{}}>
+      <div>
         <form sx={{
           maxWidth: '50%', flex: '1 0 50%',
           bg: '#F6F6F6', px: '68px',
@@ -168,7 +168,7 @@ const ContactForm = () => {
                 borderRadius: '4px',
                 alignSelf: 'flex-start',
                 p: '18px 48px',
-                fontFamily: 'Inter', fontWeight: '700', fontSize: '20px'
+                fontFamily: 'Inter', fontWeight: '700', variant: 'text.normal',
               }}>
                 Submit
               </button>

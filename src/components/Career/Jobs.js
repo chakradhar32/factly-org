@@ -34,7 +34,7 @@ const Jobs = () => {
         <h2 sx={{
           fontFamily: 'Montserrat',
           fontWeight: '600',
-          fontSize: '38px',
+          variant: 'text.xl',
           lineHeight: '28px',
           color: '#CE212B',
           mb: '60px',

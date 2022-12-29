@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 import { jsx } from 'theme-ui'
 
-const index = () => {
+const Index = () => {
   return (
     <section sx={{
     }}>
@@ -32,7 +32,7 @@ const index = () => {
           <p sx={{
             fontFamily: 'Inter',
             fontWeight: '400',
-            fontSize: '20px',
+            variant: 'text.normal',
             color: '#667085',
             lineHeight: '30px'
           }}>How do you create compelling wireframes that wow your colleagues and impress your managers? Here’s how to get started.</p>
@@ -94,7 +94,7 @@ const index = () => {
             <h4 sx={{
               fontFamily: 'Inter',
               fontWeight: 400,
-              fontSize: '16px',
+              variant: 'text.sm',
               lineHeight: '24px',
               color: '#6C6C6C',
               mt: '32px'
@@ -148,13 +148,13 @@ const index = () => {
         <h3 sx={{
           fontFamily: 'Montserrat',
           fontWeight: 600,
-          fontSize: '36px',
+          variant: 'text.xl',
           color: '#CE212B',
           mb: '32px'
         }}>Recent Blogs</h3>
         <div sx={{
           display: 'flex', gap: '70px',
-          h4: { mt: '16px', color: '#667085', fontSize: '16px' },
+          h4: { mt: '16px', color: '#667085', variant: 'text.sm', },
           h3: { mt: '16px', fontFamily: 'Montserrat', fontSize: '26px', fontWeight: 600 },
           p: { my: '16px' },
           a: {
@@ -193,4 +193,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index

@@ -26,14 +26,14 @@ const Card = ({ data }) => {
             }}>{name}</h1>
             <h4 sx={{
               fontWeight: '400',
-              fontSize: '20px',
+              variant: 'text.normal',
               color: '#6C6C6C',
               my: '16px'
             }}>{position}</h4>
           </div>
           <div sx={{ border: '1px solid #C2C2C2' }}></div>
           <div sx={{ display: 'flex', justifyContent: 'space-between', mt: '16px' }}>
-            <Link to={link} sx={{ display: 'flex', textDecoration: 'underline', fontSize: '16px', color: '#6C6C6C', fontWeight: '500' }}>Read more</Link>
+            <Link to={link} sx={{ display: 'flex', textDecoration: 'underline', variant: 'text.sm', color: '#6C6C6C', fontWeight: '500' }}>Read more</Link>
             <img src={linkedIn} alt="" />
           </div>
         </div>

@@ -48,6 +48,7 @@ const Teams = () => {
     <section>
       <div sx={{
         maxWidth: '1164px', mx: 'auto', display: 'grid', py: '100px',
+        px: ['32px', null, null, '0px'],
         gridTemplateColumns: 'repeat(auto-fit, minmax(337px, 1fr))',
         gridGap: '76px'
       }}>

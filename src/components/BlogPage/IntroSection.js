@@ -11,7 +11,7 @@ const IntroSection = () => {
     }}>
       <h2 sx={{
         fontFamily: 'Montserrat',
-        fontSize: '36px',
+        variant: 'text.xl',
         color: '#CE212B',
         fontWeight: '600',
         mb: '32px'

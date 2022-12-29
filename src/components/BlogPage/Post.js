@@ -5,7 +5,7 @@ import { jsx } from 'theme-ui'
 
 
 const Post = ({ data }) => {
-  const { image, date, title, description, link } = data
+  const { image, title, description, link } = data
   return (
     <div>
       <div sx={{ display: 'flex' }}>
@@ -13,7 +13,7 @@ const Post = ({ data }) => {
           <div>
             <img src={image} alt="" />
           </div>
-          <h4 sx={{ mt: '20px', color: ' #667085', fontSize: '16px' }}>Sep 12, 22</h4>
+          <h4 sx={{ mt: '20px', color: ' #667085', variant: 'text.sm', }}>Sep 12, 22</h4>
           <div>
             <div sx={{
               p: {
@@ -35,7 +35,7 @@ const Post = ({ data }) => {
               <div sx={{
                 fontFamily: 'Inter',
                 fontWeight: '400',
-                fontSize: '16px',
+                variant: 'text.sm',
                 color: '#667085',
                 mt: '16px',
               }} dangerouslySetInnerHTML={{ __html: description }}></div>
@@ -44,7 +44,7 @@ const Post = ({ data }) => {
               <Link to={link} sx={{
                 px: '20px', py: '10px', cursor: 'pointer', bg: '#F6F0F0', color: '#CE212B', fontFamily: 'Inter',
                 fontWeight: '500',
-                fontSize: '16px',
+                variant: 'text.sm',
                 borderRadius: '4px'
               }}>Read More</Link>
             </div>

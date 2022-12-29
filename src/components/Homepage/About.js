@@ -16,7 +16,7 @@ const About = () => {
         maxWidth: '1180px', mx: 'auto', py: '100px', display: 'flex', flexDirection: 'column', gap: '80px', p: {
           fontFamily: 'Inter',
           fontWeight: '400',
-          fontSize: '20px',
+          variant: 'text.normal',
           lineHeight: '30px'
         }
       }}>
@@ -26,7 +26,7 @@ const About = () => {
           <h1 sx={{
             fontFamily: 'Montserrat',
             fontWeight: '600',
-            fontSize: '36px',
+            variant: 'text.xl',
             lineHeight: '44px',
             mb: '20px'
           }}>About Factly</h1>
@@ -37,7 +37,7 @@ const About = () => {
           justifyContent: 'space-evenly',
           gap: '32px',
           h1: { fontSize: '24px', fontWeight: '600', fontFamily: 'Montserrat', },
-          p: { fontFamily: 'Inter', fontWeight: '400', fontSize: '16px' }
+          p: { fontFamily: 'Inter', fontWeight: '400', variant: 'text.sm', }
         }}>
           <div sx={{
             maxWidth: 'calc(65% - 16px)',
@@ -47,7 +47,7 @@ const About = () => {
             gap: '48px',
             alignItems: 'center',
             justifyContent: 'center',
-            p: { fontSize: '16px' },
+            p: { variant: 'text.sm' },
             img: { height: '77px', width: '77px' },
           }}>
             <div sx={{ display: 'flex', gap: '28px' }}>

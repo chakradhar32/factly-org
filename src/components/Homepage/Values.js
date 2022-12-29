@@ -27,7 +27,8 @@ const Values = () => {
         />
         <div sx={{
           display: 'grid',
-          gridTemplateColumns: 'auto auto auto',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(316px, 1fr))',
+          padding: ['28px', null, null, '0px'],
           gridGap: '48px',
           h1: {
             fontFamily: 'Montserrat',
@@ -36,7 +37,7 @@ const Values = () => {
             lineHeight: '30px',
             color: '#CE212B'
           },
-          p: { fontSize: '16px' }
+          p: { variant: 'text.sm' }
         }}>
           <div sx={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
             <div sx={{ display: 'flex', gap: '12px', alignItems: 'center' }}>

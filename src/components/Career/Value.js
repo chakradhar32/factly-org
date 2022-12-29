@@ -21,7 +21,7 @@ const Value = ({ data }) => {
       <p sx={{
         ontFamily: 'Inter',
         fontWeight: '400',
-        fontSize: '16px',
+        variant: 'text.sm',
         lineHeight: '24px',
         color: '#667085',
         mt: '20px'

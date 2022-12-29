@@ -6,6 +6,7 @@
   "author": "Chakradhar B",
   "dependencies": {
     "@emotion/react": "^11.10.5",
+    "@fyrepenguin/gatsby-source-dega": "^1.0.4",
     "@mdx-js/react": "^1.6.22",
     "@theme-ui/mdx": "^0.15.4",
     "gatsby": "^5.2.0",
@@ -15,6 +16,7 @@
     "gatsby-plugin-theme-ui": "^0.15.4",
     "gatsby-source-filesystem": "^5.2.0",
     "gatsby-transformer-sharp": "^5.2.0",
+    "invariant": "^2.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",

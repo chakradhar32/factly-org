@@ -14,9 +14,16 @@ const Header = () => {
         mx: 'auto',
         display: 'flex',
         alignItems: 'center',
-        gap: '24px'
+        gap: '24px',
+        flexWrap: 'wrap'
       }}>
-        <div sx={{ maxWidth: 'calc(40% - 12px)', flex: '1 0 calc(40% - 12px)', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+        <div sx={{
+          maxWidth: ['1 0 100%', null, '1 0 calc(40% - 12px)'],
+          flex: ['1 0 100%', null, '1 0 calc(40% - 12px)'],
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '20px'
+        }}>
           <h1 sx={{
             fontFamily: 'poppins',
             fontWeight: '500',
@@ -27,7 +34,7 @@ const Header = () => {
           <p sx={{
             fontFamily: 'Inter',
             fontWeight: '400',
-            fontSize: '20px',
+            variant: 'text.normal',
             color: '#1E1E1E',
             lineHeight: '30px'
           }}>Embracing data, technology and journalism to increase public awareness and empower them to make right decisions.</p>
@@ -42,12 +49,15 @@ const Header = () => {
               borderRadius: '4px',
               filter: 'drop-shadow(3px 4px 22px rgba(185, 84, 89, 0.52))',
               p: '18px 32px',
-              fontFamily: 'Inter', fontWeight: '700', fontSize: '20px'
+              fontFamily: 'Inter', fontWeight: '700', variant: 'text.normal',
             }}>
             Learn more
           </Link>
         </div>
-        <div sx={{ maxWidth: 'calc(60% - 12px)', flex: '1 0 calc(60% - 12px)' }}>
+        <div sx={{
+          maxWidth: ['1 0 100%', null, 'calc(60% - 12px)'],
+          flex: ['1 0 100%', null, 'calc(60% - 12px)'],
+        }}>
           <img src="assets/images/header1.png" alt="" />
         </div>
       </div>

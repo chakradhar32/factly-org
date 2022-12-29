@@ -77,7 +77,7 @@ const Form = () => {
                   borderRadius: '4px',
                   alignSelf: 'flex-start',
                   p: '18px 48px',
-                  fontFamily: 'Inter', fontWeight: '700', fontSize: '20px'
+                  fontFamily: 'Inter', fontWeight: '700', variant: 'text.normal',
                 }}>
                   Submit
                 </button>
