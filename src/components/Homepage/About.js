@@ -13,7 +13,13 @@ const About = () => {
       backgroundPosition: 'left 87px bottom -10%'
     }}>
       <div sx={{
-        maxWidth: '1180px', mx: 'auto', py: '100px', display: 'flex', flexDirection: 'column', gap: '80px', p: {
+        maxWidth: '1180px',
+        mx: 'auto',
+        py: ['40px', null, '100px'],
+        display: 'flex',
+        flexDirection: 'column',
+        gap: ['40px', null, '80px',],
+        p: {
           fontFamily: 'Inter',
           fontWeight: '400',
           variant: 'text.normal',
@@ -22,27 +28,31 @@ const About = () => {
       }}>
         <div sx={{
           textAlign: 'center',
+          px: ['32px', null, '0px']
         }}>
           <h1 sx={{
             fontFamily: 'Montserrat',
             fontWeight: '600',
             variant: 'text.xl',
             lineHeight: '44px',
-            mb: '20px'
+            mb: '20px',
           }}>About Factly</h1>
           <p>Factly Labs is the technology wing at Factly that works on various solutions for Journalism Tech. Factly Labs was started to primarily address the technolgy needs at Factly, but we quickly realized that the solutions developed for Factly addressed similar problems across other media organisations. </p>
         </div>
         <div sx={{
           display: 'flex',
+          flexWrap: 'wrap',
           justifyContent: 'space-evenly',
           gap: '32px',
           h1: { fontSize: '24px', fontWeight: '600', fontFamily: 'Montserrat', },
           p: { fontFamily: 'Inter', fontWeight: '400', variant: 'text.sm', }
         }}>
           <div sx={{
-            maxWidth: 'calc(65% - 16px)',
-            flex: '1 0 calc(65% - 16px)',
+            maxWidth: ['1 0 100%', null, '1 0 calc(65% - 16px)'],
+            flex: ['1 0 100%', null, '1 0 calc(65% - 16px)'],
             display: 'flex',
+            px: ['32px', null, '0px'],
+            order: [1, null, 0],
             flexDirection: 'column',
             gap: '48px',
             alignItems: 'center',
@@ -65,7 +75,12 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div sx={{
+            display: 'flex',
+            justifyContent: 'center',
+            maxWidth: ['1 0 100%', null, '1 0 calc(35% - 16px)'],
+            flex: ['1 0 100%', null, '1 0 calc(35% - 16px)'],
+          }}>
             <img src="/assets/images/factly.png" alt="" />
           </div>
         </div>

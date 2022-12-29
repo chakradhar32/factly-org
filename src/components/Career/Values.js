@@ -36,13 +36,19 @@ const Values = () => {
     },
   ]
   return (
-    <section sx={{ maxWidth: '1126px', mx: 'auto', my: '100px' }}>
-      <SectionHeader title="Join Our Team"
-        description='Connect your tools, connect your teams. With over 100 apps already available in our directory, your team’s favourite tools are just a click away.' />
-
+    <section sx={{
+      maxWidth: '1126px', mx: 'auto',
+      mb: ['40px', null, null, '0px'],
+      mt: ['80px', null, null, '0px'],
+      px: '24px'
+    }}>
+      <div sx={{ display: ['none', null, null, 'block'] }}>
+        <SectionHeader title="Join Our Team"
+          description='Connect your tools, connect your teams. With over 100 apps already available in our directory, your team’s favourite tools are just a click away.' />
+      </div>
       <div sx={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(535px, 1fr))',
+        gridTemplateColumns: ['repeat(auto-fit, minmax(320px, 1fr))', null, 'repeat(auto-fit, minmax(510px, 1fr))'],
         gridGap: '56px',
       }}>
         {values.map((value) => (

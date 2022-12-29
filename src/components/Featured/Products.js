@@ -64,7 +64,7 @@ const Products = () => {
         '.product-card:nth-child(even)': {
           backgroundColor: '#F9F9F9',
           '.image-container': {
-            order: 2
+            order: [0, null, null, 2]
           }
         }
       }}>

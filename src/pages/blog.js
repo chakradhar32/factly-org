@@ -15,7 +15,8 @@ const BlogPage = ({ data }) => {
       <IntroSection posts={posts.nodes.slice(0, 3)} />
       <div sx={{
         maxWidth: '1190px',
-        mx: 'auto'
+        mx: 'auto',
+        px: ['24px', null, '24px']
       }}>
         <h2
           sx={{

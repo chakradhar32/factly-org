@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <section sx={{
       backgroundImage: `url('assets/images/header.png')`,
-      padding: '100px'
+      py: ['60px', null, '100px'], px: ['32px', null, '0px']
     }}>
       <div sx={{
         maxWidth: '1190px',

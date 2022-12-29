@@ -14,7 +14,7 @@ const config = {
     },
     xl: {
       // h3
-      fontSize: ['1.5rem', null, '1.75rem', '2.25rem'],
+      fontSize: ['2rem', null, '1.75rem', '2.25rem'],
     },
     xxl: {
       // h1

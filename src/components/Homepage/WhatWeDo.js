@@ -8,7 +8,7 @@ import SectionHeader from '../Common/SectionHeader'
 const WhatWeDo = () => {
   return (
     <section>
-      <div sx={{ maxWidth: '1066px', mx: 'auto', display: 'flex', flexDirection: 'column', gap: '108px', pb: '100px', pt: '60px' }}>
+      <div sx={{ maxWidth: '1066px', mx: 'auto', display: 'flex', flexDirection: 'column', gap: ['32px', null, null, '108px'], pb: '100px', pt: '60px' }}>
 
         <SectionHeader title="What we do?"
           description='Connect your tools, connect your teams. With over 100 apps already available in our directory, your team’s favourite tools are just a click away.' />

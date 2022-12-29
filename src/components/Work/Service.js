@@ -13,14 +13,14 @@ const Service = ({ data }) => {
         py: '48px',
         alignItems: 'center',
         gap: '64px',
-
+        flexWrap: 'wrap'
       }}>
         <div sx={{
           display: 'flex',
           flexDirection: 'column',
           order: 1,
-          maxWidth: 'calc(60% - 64px)',
-          flex: 'calc(60% - 64px)'
+          maxWidth: ['1 0 100%', null, '1 0 calc(60% - 64px)'],
+          flex: ['1 0 100%', null, '1 0 calc(60% - 64px)']
         }}>
           <div sx={{
             p: {
@@ -47,7 +47,10 @@ const Service = ({ data }) => {
             }} dangerouslySetInnerHTML={{ __html: description }}></div>
           </div>
         </div>
-        <div sx={{ maxWidth: '40%', flex: '1 0 40%' }} className='image-container'>
+        <div sx={{
+          maxWidth: ['1 0 50%', null, '1 0 calc(40%)'],
+          flex: ['1 0 50%', null, '1 0 calc(40%)']
+        }} className='image-container'>
           <img sx={{ width: '100%' }} src={image} alt="" />
         </div>
       </div>

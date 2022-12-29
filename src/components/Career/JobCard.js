@@ -8,7 +8,16 @@ const JobCard = ({ data }) => {
   const { title, link } = data
   return (
     <div>
-      <div sx={{ bg: "#E4E8E8", display: 'flex', justifyContent: 'space-between', mt: '24px', p: '24px 48px', alignItems: 'center' }}>
+      <div sx={{
+        bg: "#E4E8E8",
+        display: 'flex',
+        flexWrap: 'wrap',
+        gap: '16px',
+        justifyContent: 'space-between',
+        mt: '24px',
+        p: '24px 48px',
+        alignItems: 'center'
+      }}>
         <h4 sx={{
           fontFamily: 'Montserrat',
           fontWeight: 600,

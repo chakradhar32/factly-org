@@ -12,8 +12,8 @@ const Values = () => {
         mx: 'auto',
         display: 'flex',
         flexDirection: 'column',
-        gap: '80px',
-        py: '100px',
+        gap: ['32px', null, null, '80px'],
+        py: ['40px', null, null, '100px'],
         p: {
           fontFamily: 'Inter',
           fontWeight: '400',

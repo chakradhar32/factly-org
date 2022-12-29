@@ -6,7 +6,7 @@ import { isBrowser } from '../../helpers/isBrowser';
 import parseTiptapContent from '../../helpers/parseTiptapContent';
 
 const Post = ({ data }) => {
-  const src = data.medium?.url?.proxy;
+  const src = data?.medium?.url?.proxy;
   return (
     <section sx={{
     }}>
@@ -14,13 +14,15 @@ const Post = ({ data }) => {
         maxWidth: '1100px',
         mx: 'auto',
         display: 'flex',
+        flexWrap: 'wrap',
         alignItems: 'center',
         gap: '24px',
-        mt: '5rem'
+        mt: '5rem',
+        px: ['24px', null, '0px']
       }}>
         <div sx={{
-          maxWidth: 'calc(50% - 32px)',
-          flex: '1 0 calc(50% - 32px)',
+          maxWidth: ['1 0 100%', null, 'calc(50% - 32px)'],
+          flex: ['1 0 100%', null, 'calc(50% - 32px)'],
           display: 'flex',
           flexDirection: 'column',
           gap: '20px'
@@ -47,7 +49,9 @@ const Post = ({ data }) => {
             overflow: 'hidden',
             // height: '100%',
             objectFit: 'cover',
-            width: '100%',
+            //width: '100%',
+            maxWidth: ['1 0 100%', null, 'calc(50% - 32px)'],
+            flex: ['1 0 100%', null, 'calc(50% - 32px)'],
           }}
         >
           <div aria-hidden="true" sx={{ width: '100%', pb: '56.25%' }} className="lazy"></div>

@@ -4,12 +4,12 @@ import Post from '../components/Post';
 import Layout from '../components/Layout';
 
 const PostPage = ({ data }) => {
-  const { posts, post: degaPost } = data;
-  const currentPost = posts.edges.filter(({ node }) => node.id === degaPost.id)[0];
+  const { posts, post } = data;
+  const currentPost = posts.edges.filter(({ node }) => node.id === post.id)[0];
   const { previous: previousPost, next: nextPost } = currentPost;
   return (
     <Layout>
-      <Post data={degaPost} previousPost={previousPost} nextPost={nextPost} />
+      <Post data={post} previousPost={previousPost} nextPost={nextPost} />
     </Layout>
   );
 };
