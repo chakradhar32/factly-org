@@ -48,8 +48,8 @@ const Service = ({ data }) => {
           </div>
         </div>
         <div sx={{
-          maxWidth: ['1 0 50%', null, '1 0 calc(40%)'],
-          flex: ['1 0 50%', null, '1 0 calc(40%)']
+          maxWidth: ['1 0 100%', null, '1 0 calc(40%)'],
+          flex: ['1 0 100%', null, '1 0 calc(40%)']
         }} className='image-container'>
           <img sx={{ width: '100%' }} src={image} alt="" />
         </div>

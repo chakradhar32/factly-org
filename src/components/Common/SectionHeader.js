@@ -13,7 +13,7 @@ const SectionHeader = ({ title, description }) => {
         <h1 sx={{
           fontFamily: 'Montserrat',
           fontWeight: '600',
-          variant: 'text.xl',
+          fontSize: ['32px', null, '36px'],
           lineHeight: '44px',
           textAlign: 'center',
           color: '#CE212B',
@@ -22,7 +22,7 @@ const SectionHeader = ({ title, description }) => {
         <p sx={{
           fontFamily: 'Inter',
           fontWeight: '400',
-          variant: 'text.normal',
+          fontSize: ['16px', null, '20px'],
           textAlign: 'center',
           color: '#1E1E1E'
         }}>{description}</p>

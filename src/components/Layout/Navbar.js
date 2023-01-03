@@ -16,21 +16,7 @@ const Navbar = () => {
     },
     {
       name: 'Products',
-      slug: '/',
-      items: [
-        {
-          name: 'Dega',
-          slug: '/'
-        },
-        {
-          name: 'Kavach',
-          slug: '/'
-        },
-        {
-          name: 'Dataful',
-          slug: '/'
-        },
-      ]
+      slug: '/'
     },
     {
       name: 'Company',
@@ -77,7 +63,8 @@ const Navbar = () => {
 
   return (
     <nav sx={{
-      bg: '#FFFFFF'
+      bg: '#FFFFFF',
+      mt: '2rem'
     }}>
       <div sx={{
         display: 'flex',
@@ -87,8 +74,7 @@ const Navbar = () => {
         color: '#1E1E1E',
         mx: 'auto',
         py: '18px',
-        px: '48px',
-        // bg: '#FFFFFF'
+        px: '32px'
       }}>
         <div>
           <Link to="/">
@@ -100,8 +86,9 @@ const Navbar = () => {
             display: 'flex',
             gap: '1.5rem',
             alignItems: 'center',
+            zIndex: '1000',
             a: {
-              color: '#666',
+              color: '#1E1E1E',
               variant: 'text.xs',
               fontWeight: '500',
               padding: '0.75rem 0.5rem',
@@ -159,12 +146,15 @@ const Navbar = () => {
                 )}
               </div>
             ))}
+
           {mobile && (
             <button
               sx={{
+                display: ['block', null, 'none'],
                 all: 'unset',
                 p: '0.5rem',
                 cursor: 'pointer',
+                color: menuVisible ? '#FFFFFF' : 'inherit'
               }}
               aria-haspopup="true"
               aria-controls="mobile-menu"
@@ -175,8 +165,89 @@ const Navbar = () => {
             </button>
           )}
         </div>
+        {menuVisible && (
+          <div
+            id="mobile-menu"
+            aria-expanded={menuVisible ? 'true' : 'false'}
+            sx={{
+              position: 'absolute',
+              top: '100%',
+              left: 0,
+              right: 0,
+              bottom: 0,
+              top: 0,
+              height: '100vh',
+              bg: '#CE212B',
+              zIndex: '999',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
 
-        <div>
+            }}
+          >
+            <div
+              sx={{
+                width: '100%',
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+                px: '2rem',
+                boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)',
+                a: {
+                  color: '#FFFFFF',
+                  variant: 'text.normal',
+                  padding: '1rem',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                },
+                'a:hover': {
+                  color: '#4B938EE5',
+                },
+              }}
+            >
+              {menuItems.map((menuItem) => (
+                <div
+                  key={menuItem.name}
+                  sx={{
+                    position: 'relative',
+
+                    'div a': {
+                      display: 'flex',
+                      justifyContent: 'center',
+                      textAlign: 'center',
+                      minWidth: '250px',
+                    },
+                  }}
+                >
+                  <Link
+                    aria-role="menuitem"
+                    key={menuItem.slug}
+                    to={menuItem.slug}
+                    title={menuItem.name}
+                  >
+                    {menuItem.name}
+                  </Link>
+
+                  {menuItem?.items && (
+                    <div>
+                      {menuItem.items.map((item) => (
+                        <Link aria-role="menuitem" key={item.slug} to={item.slug} title={item.name}>
+                          {item.name}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+        <div sx={{
+          display: ['none', null, 'block']
+        }}>
           <Link to="/contact-us" sx={{
             bg: '#CE212B',
             color: '#E6E3D9',

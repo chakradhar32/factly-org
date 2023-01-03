@@ -101,7 +101,7 @@ const Members = () => {
       </div>
       <div sx={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))',
+        gridTemplateColumns: ['repeat(auto-fit, minmax(150px, 1fr))', null, 'repeat(auto-fit, minmax(220px, 1fr))'],
         gridGap: '56px 24px',
       }}>
         {members.map((member) => (

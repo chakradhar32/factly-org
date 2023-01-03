@@ -80,8 +80,8 @@ const Product = ({ data }) => {
           </div>
         </div>
         <div className='image-container' sx={{
-          maxWidth: ['1 0 50%', null, '1 0 calc(40%)'],
-          flex: ['1 0 50%', null, '1 0 calc(40%)']
+          maxWidth: ['1 0 100%', null, '1 0 calc(40%)'],
+          flex: ['1 0 100%', null, '1 0 calc(40%)']
         }}
         >
           <img sx={{ width: '100%' }} src={image} alt="" />

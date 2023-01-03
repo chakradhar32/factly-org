@@ -6,8 +6,19 @@ import BackgroundPattern from '../Common/BackgroundPattern'
 
 const Form = () => {
   return (
-    <section sx={{ bg: '#688678', px: '100px', py: '60px', mt: '200px', position: 'relative' }}>
-      <div sx={{ display: 'flex', maxWidth: '1080px', mx: 'auto', }}>
+    <section sx={{
+      bg: '#688678',
+      px: ['0px', null, '100px'],
+      py: '60px',
+      mt: ['80px', null, '200px'],
+      position: 'relative'
+    }}>
+      <div sx={{
+        //display: 'flex',
+        display: ['none', null, 'flex'],
+        maxWidth: '1080px',
+        mx: 'auto',
+      }}>
         <BackgroundPattern />
         <div sx={{
           maxWidth: '45%',
@@ -26,10 +37,7 @@ const Form = () => {
         </div>
         <div
           sx={{
-            // bg: '#F1F1F1',
-            p: ['1rem', null, null, '2rem'],
-            // maxWidth: '50%',
-            // flex: '1 0 50%',
+            p: '2rem',
             width: '100%',
             position: "relative",
             label: {
@@ -72,7 +80,7 @@ const Form = () => {
                 </label>
                 <button sx={{
                   bg: '#CE212B',
-                  color: '#E6E3D9',
+                  color: '#FFFFFF',
                   border: 'none',
                   borderRadius: '4px',
                   alignSelf: 'flex-start',
@@ -82,7 +90,88 @@ const Form = () => {
                   Submit
                 </button>
               </div>
+            </div>
+          </form>
+        </div>
+      </div>
 
+
+
+      {/* mobile */}
+
+
+
+      <div sx={{ maxWidth: '376px', mx: 'auto', display: ['block', null, 'none',] }}>
+        <div>
+          <h1 sx={{
+            color: '#F8F8F8', fontFamily: 'Montserrat',
+            fontWeight: '600',
+            fontSize: '48px',
+            lineHeight: '74px',
+            mb: '2rem'
+          }}>
+            We are here to help you know the facts.
+          </h1>
+        </div>
+        <div
+          sx={{
+            width: '100%',
+            position: "relative",
+            label: {
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '0.25rem',
+
+            },
+          }}
+        >
+          <form sx={{
+            position: 'none', bottom: '0', width: '100%', maxWidth: '550px'
+          }} action={''} method="POST">
+            <div sx={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
+              <div
+                sx={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '1rem',
+                  width: '100%',
+                  'input, textarea, select': {
+                    border: '1px solid #FFFFFF',
+                    padding: '1rem',
+                    borderRadius: '0.5rem',
+                    background: 'none',
+                  },
+                  label: {
+                    color: '#FFFFFF'
+                  }
+                }}
+              >
+                <label htmlFor="name">
+                  Name
+                  <input id="name" type="text" name="name" />
+                </label>
+                <label htmlFor="name">
+                  Email
+                  <input id="email" type="email" name="email" />
+                </label>
+                <label htmlFor="message">
+                  Message
+                  <input id="message" type="text" name="message" />
+                </label>
+                <button sx={{
+                  color: '#CE212B',
+                  bg: '#FFFFFF',
+                  border: 'none',
+                  borderRadius: '4px',
+                  alignSelf: 'flex-start',
+                  p: '18px 48px',
+                  fontFamily: 'Inter',
+                  fontWeight: '700',
+                  fontSize: '20px'
+                }}>
+                  Submit
+                </button>
+              </div>
             </div>
           </form>
         </div>
@@ -92,23 +181,3 @@ const Form = () => {
 };
 
 export default Form;
-
-
-
-
-
-
-// max-width: 50%;
-// flex: 1 0 50%;
-// max-width: 45%;
-// flex: 1 0 45%;
-// }
-// Inline #66
-// .css-1ydrhsz-Form {
-// max-width: calc(50%);
-// margin: auto;
-// }
-// Inline #71
-// .css-e8tyx4-Form {
-// bottom: -64px;
-// bottom: 0;

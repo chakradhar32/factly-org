@@ -14,22 +14,26 @@ const ContactForm = () => {
     <section
       sx={{
         display: 'flex',
-        gap: '2rem',
+        justifyContent: 'center',
+        gap: ['2rem', null, '5rem'],
         maxWidth: '1036px',
         margin: 'auto',
-        padding: ['1rem', null, null, '2rem'],
-        my: '3rem',
+        padding: ['2rem', null, null, '2rem'],
+        my: ['1rem', null, '3rem'],
         flexWrap: 'wrap',
+        order: [0, null, 2]
       }}
     >
       <div
         sx={{
           display: 'flex',
+          justifyContent: 'center',
           flexDirection: 'column',
-          gap: '24px',
-          flex: '1 0 50%',
-          maxWidth: '50%',
+          gap: '28px',
+          maxWidth: ['1 0 100%', null, 'calc(50% - 52px)'],
+          flex: ['1 0 100%', null, 'calc(50% - 52px)'],
           flexWrap: 'wrap',
+          pr: '32px',
           h4: {
             fontFamily: 'Montserrat',
             fontWeight: 600,
@@ -43,7 +47,7 @@ const ContactForm = () => {
             sx={{
               fontFamily: 'Montserrat',
               fontWeight: '600',
-              variant: 'text.lg',
+              fontSize: '32px',
               lineHeight: '44px',
               color: '#CE212B'
             }}
@@ -67,8 +71,7 @@ const ContactForm = () => {
         <div sx={{ display: 'flex', alignItems: 'center', gap: '24px' }}>
           <img src={Location} alt="" />
           <div sx={{ display: 'flex', flexDirection: 'column' }}>
-            <h4>Lorem Ipsum, Dolor Ultra
-              Hyderabad</h4>
+            <h4>Lorem Ipsum, Dolor Ultra Hyderabad</h4>
           </div>
         </div>
 
@@ -77,10 +80,9 @@ const ContactForm = () => {
             display: 'flex',
             flexWrap: 'wrap',
             alignItems: 'center',
-            justifyContent: ['center', null, null, 'flex-start'],
-
+            justifyContent: 'flex-start',
             variant: 'text.lg',
-            gap: '2rem',
+            gap: '20px',
             py: '1rem',
             a: {
               color: '#000',
@@ -107,17 +109,13 @@ const ContactForm = () => {
           <a
             href="#"
             target="_blank"
-            rel="noopener noreferrer"
-
-          >
+            rel="noopener noreferrer">
             <img src={Twitter} alt="" />
           </a>
           <a
             href="#"
             target="_blank"
-            rel="noopener noreferrer"
-
-          >
+            rel="noopener noreferrer">
             <img src={Instagram} alt="" />
           </a>
         </div>
@@ -128,56 +126,55 @@ const ContactForm = () => {
 
 
 
-      <div>
-        <form sx={{
-          maxWidth: '50%', flex: '1 0 50%',
-          bg: '#F6F6F6', px: '68px',
-          py: '48px', width: '100%', maxWidth: '550px', boxShadow: '5px 32px 25px rgba(104, 134, 119, 0.23)'
-        }} action={''} method="POST">
-          <div sx={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
-            <div
-              sx={{
+      <div sx={{
+        px: ['24px', null, '48px'],
+        py: ['32px', null, '36px'],
+        bg: '#F1F1F1',
+        maxWidth: ['1 0 100%', null, 'calc(50% - 52px)'],
+        flex: ['1 0 100%', null, 'calc(50% - 52px)'],
+      }}>
+        <form
+          action={''} method="POST">
+          <div
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '1rem',
+              'input,textarea,select': {
+                padding: '1rem',
+                border: '1px solid #7C7C7C',
                 display: 'flex',
-                flexDirection: 'column',
-                gap: '1rem',
-                width: '100%',
-                'input, textarea, select': {
-                  border: '1px solid #ccc',
-                  padding: '1rem',
-                  borderRadius: '0.5rem',
-                  display: 'flex'
-                },
-              }}
-            >
-              <label htmlFor="name">
-                Name
-                <input id="name" type="text" name="name" />
-              </label>
-              <label htmlFor="name">
-                Email
-                <input id="email" type="email" name="email" />
-              </label>
-              <label htmlFor="message">
-                Message
-                <input id="message" type="text" name="message" />
-              </label>
-              <button sx={{
-                bg: '#CE212B',
-                color: '#E6E3D9',
-                border: 'none',
-                borderRadius: '4px',
-                alignSelf: 'flex-start',
-                p: '18px 48px',
-                fontFamily: 'Inter', fontWeight: '700', variant: 'text.normal',
-              }}>
-                Submit
-              </button>
-            </div>
-
+                width: '100%'
+              },
+              label: { color: '#5b5B5B' }
+            }}
+          >
+            <label htmlFor="name">
+              Name
+              <input id="name" type="text" name="name" />
+            </label>
+            <label htmlFor="name">
+              Email
+              <input id="email" type="email" name="email" />
+            </label>
+            <label htmlFor="message">
+              Message
+              <input id="message" type="text" name="message" />
+            </label>
+            <button sx={{
+              bg: '#CE212B',
+              color: '#E6E3D9',
+              border: 'none',
+              borderRadius: '4px',
+              alignSelf: 'flex-start',
+              p: '18px 48px',
+              fontFamily: 'Inter', fontWeight: '700', variant: 'text.normal',
+            }}>
+              Submit
+            </button>
           </div>
         </form>
       </div>
-
     </section>
   );
 };

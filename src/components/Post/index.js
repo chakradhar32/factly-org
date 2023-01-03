@@ -17,7 +17,7 @@ const Post = ({ data }) => {
         flexWrap: 'wrap',
         alignItems: 'center',
         gap: '24px',
-        mt: '5rem',
+        mt: ['3rem', null, '5rem'],
         px: ['24px', null, '0px']
       }}>
         <div sx={{
