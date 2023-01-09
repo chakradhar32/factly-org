@@ -1,0 +1,583 @@
+[
+  {
+    "image": "/assets/images/teams.png",
+    "name": "Organization team",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "members": [
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/chakri.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": ""
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": ""
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      }
+    ],
+    "slug": "OrganiZation-team"
+  },
+
+  {
+    "image": "/assets/images/teams.png",
+    "name": "Newsroom-team",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "members": [
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      }
+    ],
+    "slug": "newsroom-team"
+  },
+
+  {
+    "image": "/assets/images/teams.png",
+    "name": "Fact-Check team",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "members": [
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/chakri.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": ""
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": ""
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      }
+    ],
+    "slug": "factCheck-team"
+  },
+
+  {
+    "image": "/assets/images/teams.png",
+    "name": "Research team",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "members": [
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/chakri.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": ""
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": ""
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      }
+    ],
+    "slug": "research-team"
+  },
+
+  {
+    "image": "/assets/images/teams.png",
+    "name": "Production team",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "members": [
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/chakri.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": ""
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": ""
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      }
+    ],
+    "slug": "production-team"
+  },
+
+  {
+    "image": "/assets/images/teams.png",
+    "name": "Technology team",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "members": [
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/chakri.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": ""
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": ""
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Bharath Guniganti",
+        "position": "Head-Operations",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      },
+      {
+        "image": "/assets/images/bharath.png",
+        "name": "Rakesh Dubbudu",
+        "position": "Founder, Factly",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
+        "socialLinks": [
+          {
+            "linkedIn": "/"
+          }
+        ]
+      }
+    ],
+    "slug": "newsroom-team"
+  }
+]

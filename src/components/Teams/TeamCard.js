@@ -4,8 +4,8 @@ import React from 'react'
 import { jsx } from 'theme-ui'
 
 
-const Team = ({ data }) => {
-  const { image, title, description, link } = data
+const TeamCard = ({ data }) => {
+  const { image, name, description, slug } = data
   return (
     <div>
       <div sx={{ display: 'flex' }}>
@@ -30,7 +30,7 @@ const Team = ({ data }) => {
                 lineHeight: '28px',
                 color: '#1E1E1E',
                 mt: '16px'
-              }}>{title}</h1>
+              }}>{name}</h1>
               <div sx={{
                 fontFamily: 'Inter',
                 fontWeight: '400',
@@ -40,7 +40,7 @@ const Team = ({ data }) => {
               }} dangerouslySetInnerHTML={{ __html: description }}></div>
             </div>
             <div sx={{ mt: '16px' }}>
-              <Link to={link} sx={{
+              <Link to={slug} sx={{
                 px: '20px', py: '10px', bg: '#F6F0F0', color: '#CE212B', fontFamily: 'Inter',
                 fontWeight: '500',
                 variant: 'text.sm',
@@ -54,4 +54,4 @@ const Team = ({ data }) => {
   )
 }
 
-export default Team
+export default TeamCard

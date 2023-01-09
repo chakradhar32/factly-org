@@ -1,16 +1,16 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import Members from '../components/Details/Members'
+import Members from '../components/TeamDetails/Members'
 import Form from '../components/Common/Form'
 
 
-const TeamPage = () => {
+const TeamDetails = ({ pageContext: team }) => {
   return (
     <Layout>
-      <Members />
+      <Members members={team.members} />
       <Form />
     </Layout>
   )
 }
 
-export default TeamPage
+export default TeamDetails

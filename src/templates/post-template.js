@@ -6,6 +6,13 @@ import Layout from '../components/Layout';
 const PostPage = ({ data }) => {
   const { posts, post } = data;
   const currentPost = posts.edges.filter(({ node }) => node.id === post.id)[0];
+  if (!currentPost) {
+    return (
+      <Layout>
+        <h3>Post not found</h3>
+      </Layout>
+    );
+  }
   const { previous: previousPost, next: nextPost } = currentPost;
   return (
     <Layout>
@@ -18,7 +25,10 @@ export default PostPage;
 
 export const query = graphql`
   query ($slug: String!) {
-    posts: allDegaPost {
+    posts: allDegaPost (sort: { fields: created_at, order: DESC }
+    filter: { format: { slug: { eq: "article" } } }
+    limit: 24
+  ) {
       edges {
         node {
           published_date

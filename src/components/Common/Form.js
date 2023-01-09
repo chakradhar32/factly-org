@@ -14,7 +14,6 @@ const Form = () => {
       position: 'relative'
     }}>
       <div sx={{
-        //display: 'flex',
         display: ['none', null, 'flex'],
         maxWidth: '1080px',
         mx: 'auto',
