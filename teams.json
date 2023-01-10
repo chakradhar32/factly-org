@@ -22,7 +22,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
         "socialLinks": [
           {
-            "linkedIn": ""
+            "linkedIn": "/"
           }
         ]
       },
@@ -33,7 +33,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
         "socialLinks": [
           {
-            "linkedIn": ""
+            "linkedIn": "/"
           }
         ]
       },
@@ -93,7 +93,7 @@
         ]
       }
     ],
-    "slug": "OrganiZation-team"
+    "slug": "organization-team"
   },
 
   {
@@ -216,7 +216,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
         "socialLinks": [
           {
-            "linkedIn": ""
+            "linkedIn": "/"
           }
         ]
       },
@@ -227,7 +227,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
         "socialLinks": [
           {
-            "linkedIn": ""
+            "linkedIn": "/"
           }
         ]
       },
@@ -313,7 +313,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
         "socialLinks": [
           {
-            "linkedIn": ""
+            "linkedIn": "/"
           }
         ]
       },
@@ -410,7 +410,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
         "socialLinks": [
           {
-            "linkedIn": ""
+            "linkedIn": "/"
           }
         ]
       },
@@ -421,7 +421,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
         "socialLinks": [
           {
-            "linkedIn": ""
+            "linkedIn": "/"
           }
         ]
       },
@@ -507,7 +507,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
         "socialLinks": [
           {
-            "linkedIn": ""
+            "linkedIn": "/"
           }
         ]
       },
@@ -518,7 +518,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet finibus dui pellentesque porta. Pellentesque ante urna, pellentesque ut tincidunt eu, cursus vitae erat.",
         "socialLinks": [
           {
-            "linkedIn": ""
+            "linkedIn": "/"
           }
         ]
       },
@@ -578,6 +578,6 @@
         ]
       }
     ],
-    "slug": "newsroom-team"
+    "slug": "technology-team"
   }
 ]

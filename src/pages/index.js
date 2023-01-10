@@ -9,10 +9,16 @@ import WhatWeDo from '../components/Homepage/WhatWeDo';
 import About from '../components/Homepage/About';
 import Values from '../components/Homepage/Values';
 import Form from '../components/Common/Form';
+import { Seo } from '../components/seo';
+
 
 const Homepage = () => {
   return (
     <Layout>
+      <Seo
+        title="Home | Factly Organisation"
+        description=""
+      />
       <Header />
       <Support />
       <Founder />
