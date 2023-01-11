@@ -1,5 +1,4 @@
 /** @jsx jsx */
-import { Link } from 'gatsby'
 import React from 'react'
 import { useState } from 'react';
 import { jsx } from 'theme-ui';
