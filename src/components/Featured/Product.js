@@ -13,7 +13,6 @@ const Product = ({ data }) => {
         display: 'flex',
         gap: ['28px', null, null, '64px'],
         pb: '48px',
-        pt: ['0px', null, null, '48px'],
         alignItems: 'center',
         maxWidth: '1060px',
         mx: 'auto',

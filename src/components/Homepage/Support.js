@@ -7,7 +7,7 @@ const Support = () => {
   return (
     <section sx={{ bg: '#F8F8F8', py: ['0px', null, '60px'], px: ['0px', null, null, '100px'] }}>
       <div
-        sx={{ maxWidth: '960px', mx: 'auto', display: 'flex', flexDirection: 'column', gap: '54px' }}>
+        sx={{ maxWidth: '960px', mx: 'auto', display: 'flex', flexDirection: 'column' }}>
         <SectionHeader
           title='Over 20 partners and supporters'
           description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry' s standard dummy text ever since the 1500s'"

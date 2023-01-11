@@ -16,11 +16,11 @@ const Navbar = () => {
     },
     {
       name: 'Products',
-      slug: '/'
+      slug: '/featured'
     },
     {
       name: 'Company',
-      slug: '/team'
+      slug: '/teams'
     },
     {
       name: 'Impact',
@@ -64,7 +64,7 @@ const Navbar = () => {
   return (
     <nav sx={{
       bg: '#FFFFFF',
-      mt: '2rem'
+      my: '2rem',
     }}>
       <div sx={{
         display: 'flex',

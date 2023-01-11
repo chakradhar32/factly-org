@@ -29,7 +29,7 @@ const Jobs = () => {
     },
   ]
   return (
-    <section sx={{ maxWidth: '904px', mx: 'auto', pt: '60px', pb: ['40px', null, '100px'], px: '24px' }}>
+    <section sx={{ maxWidth: '904px', mx: 'auto', pt: ['60px', null, '100px'], pb: ['40px', null, '120px'], px: '24px' }}>
       <div>
         <h2 sx={{
           fontFamily: 'Montserrat',

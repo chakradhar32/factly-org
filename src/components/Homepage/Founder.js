@@ -15,6 +15,7 @@ const Founder = () => {
         bg: '#1E1E1E',
         px: '100px',
         py: '64px',
+        mt: '48px',
         position: 'relative',
       }}
       >
@@ -56,9 +57,9 @@ const Founder = () => {
 
       <div sx={{
         display: ['block', null, 'none'],
-        //maxWidth: '432px',
         bg: '#1E1E1E',
         px: '40px',
+        mt: '48px',
         py: '60px',
         'h3,h4': {
           color: '#CE212B',

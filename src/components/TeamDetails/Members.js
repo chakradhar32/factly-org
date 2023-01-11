@@ -1,12 +1,11 @@
 /** @jsx jsx */
 import { Link } from 'gatsby'
 import React from 'react'
-import { jsx } from 'theme-ui'
+import { jsx } from 'theme-ui';
 import MemberCard from './MemberCard'
 
 
 const Members = ({ members }) => {
-
   return (
     <section sx={{ maxWidth: '1120px', mx: 'auto', py: ['40px', null, '100px'], px: '24px' }}>
       <div sx={{ mb: '68px' }}>
@@ -55,7 +54,7 @@ const Members = ({ members }) => {
         gridGap: '56px 24px',
       }}>
         {members.map((member) => (
-          <MemberCard data={{ ...member }} />
+          <MemberCard data={member} />
         ))}
       </div>
     </section>

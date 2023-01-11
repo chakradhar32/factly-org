@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import Post from '../components/Post';
 import Layout from '../components/Layout';
 import { Seo } from '../components/seo';
-
+import Form from '../components/Common/Form'
 
 const PostPage = ({ data }) => {
   const { posts, post } = data;
@@ -20,6 +20,7 @@ const PostPage = ({ data }) => {
     <Layout>
       <Seo title={post.title} description={""} />
       <Post data={post} previousPost={previousPost} nextPost={nextPost} />
+      <Form />
     </Layout>
   );
 };

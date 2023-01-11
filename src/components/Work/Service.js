@@ -10,7 +10,7 @@ const Service = ({ data }) => {
         display: 'flex',
         maxWidth: '1060px',
         mx: 'auto',
-        py: '48px',
+        pb: '48px',
         alignItems: 'center',
         gap: '64px',
         flexWrap: 'wrap'
