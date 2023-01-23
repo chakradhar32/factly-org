@@ -63,10 +63,10 @@ const Footer = () => {
             }
           }}>
             <a href="#">About Factly</a>
-            <a href="#">Team</a>
+            <a href="/teams">Team</a>
             <a href="#">Partners</a>
             <a href="#">Accolades</a>
-            <a href="#">Careers</a>
+            <a href="/career">Careers</a>
           </div>
           <div sx={{
             display: 'flex',
@@ -79,10 +79,10 @@ const Footer = () => {
             }
           }}>
             <a href="#">About Factly</a>
-            <a href="#">Team</a>
+            <a href="/teams">Team</a>
             <a href="#">Partners</a>
             <a href="#">Accolades</a>
-            <a href="#">Careers</a>
+            <a href="/career">Careers</a>
           </div>
           <div sx={{
             display: 'flex',
@@ -95,10 +95,10 @@ const Footer = () => {
             }
           }}>
             <a href="#">About Factly</a>
-            <a href="#">Team</a>
+            <a href="/teams">Team</a>
             <a href="#">Partners</a>
             <a href="#">Accolades</a>
-            <a href="#">Careers</a>
+            <a href="/career">Careers</a>
           </div>
         </div>
         <p sx={{
@@ -169,7 +169,7 @@ const Footer = () => {
             }
           }}>
             <Link to='/work'>Our Work</Link>
-            <Link to='/team'>Company</Link>
+            <Link to='/teams'>Company</Link>
             <Link to=''>Impact</Link>
             <Link to=''>Accolades</Link>
             <Link to='/blog'>Blog</Link>

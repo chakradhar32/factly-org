@@ -58,7 +58,10 @@ const Products = () => {
     },
   ]
   return (
-    <section sx={{ p: '2rem' }}>
+    <section sx={{
+      px: '2rem',
+      py: '5rem',
+    }}>
       <div sx={{
         my: '80px',
         '.product-card:nth-child(even)': {

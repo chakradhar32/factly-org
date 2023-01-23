@@ -36,12 +36,12 @@ module.exports = {
         name: `Factly website`,
         short_name: `Factly`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#CE212B`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        theme_color: `#663399`,
+        theme_color: `#CE212B;`,
         display: `minimal-ui`,
-        icon: `./static/assets/icons/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `./static/assets/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     {

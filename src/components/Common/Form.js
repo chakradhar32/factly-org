@@ -10,7 +10,7 @@ const Form = () => {
       bg: '#688678',
       px: ['0px', null, '100px'],
       py: '60px',
-      mt: ['80px', null, '200px'],
+      mt: ['0px', null, '200px'],
       position: 'relative'
     }}>
       <div sx={{
@@ -100,7 +100,10 @@ const Form = () => {
 
 
 
-      <div sx={{ maxWidth: '376px', mx: 'auto', display: ['block', null, 'none',] }}>
+      <div sx={{
+        px: '32px',
+        display: ['block', null, 'none',]
+      }}>
         <div>
           <h1 sx={{
             color: '#F8F8F8', fontFamily: 'Montserrat',

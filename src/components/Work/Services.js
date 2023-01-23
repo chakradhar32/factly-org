@@ -46,8 +46,8 @@ const Services = () => {
   return (
     <section>
       <div sx={{
-        my: '80px',
-        p: '2rem',
+        px: '2rem',
+        py: '5rem',
         '.product-card:nth-child(even)': {
           backgroundColor: '#F9F9F9',
           '.image-container': {

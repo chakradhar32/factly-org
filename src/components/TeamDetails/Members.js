@@ -7,7 +7,7 @@ import MemberCard from './MemberCard'
 
 const Members = ({ members }) => {
   return (
-    <section sx={{ maxWidth: '1120px', mx: 'auto', py: ['40px', null, '100px'], px: '24px' }}>
+    <section sx={{ maxWidth: '1120px', mx: 'auto', py: ['0px', null, '100px'], pb: '60px', px: '24px' }}>
       <div sx={{ mb: '68px' }}>
         <div sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h1 sx={{

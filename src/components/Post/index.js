@@ -18,7 +18,7 @@ const Post = ({ data }) => {
         alignItems: 'center',
         gap: '24px',
         mt: ['3rem', null, '5rem'],
-        px: ['24px', null, '0px']
+        px: ['32px', null, '0px']
       }}>
         <div sx={{
           maxWidth: ['1 0 100%', null, 'calc(50% - 32px)'],
@@ -138,6 +138,10 @@ const Post = ({ data }) => {
           maxWidth: '720px',
           margin: 'auto',
           py: '4rem',
+          px: '32px',
+          p: {
+            mb: '1rem',
+          }
         }}
       >
         {isBrowser && parseTiptapContent(data.description_html)}
