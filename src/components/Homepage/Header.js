@@ -14,6 +14,7 @@ const Header = () => {
       <div sx={{
         maxWidth: '1190px',
         mx: 'auto',
+        px: [null, '32px', null],
         display: 'flex',
         alignItems: 'center',
         gap: '24px',

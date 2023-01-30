@@ -9,6 +9,7 @@ const Footer = () => {
   return (
     <footer sx={{
       bg: '#1E1E1E',
+      p: ['2rem', null, 'none']
     }}>
       <div sx={{ display: ['none', null, 'block'] }}>
         <div sx={{
@@ -121,7 +122,7 @@ const Footer = () => {
           mx: 'auto',
           display: "flex",
           flexDirection: "column",
-          gap: '4rem',
+          gap: '2rem',
           a: {
             color: '#FFFFFF'
           },

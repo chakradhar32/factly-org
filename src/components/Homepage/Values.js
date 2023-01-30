@@ -15,7 +15,7 @@ const Values = () => {
         display: 'flex',
         flexDirection: 'column',
         gap: ['32px', null, null],
-        px: ['40px', null, null],
+        px: ['32px', null, null],
         pb: ['40px', null, '100px'],
         pt: ['40px', null, null],
         p: {
@@ -32,7 +32,6 @@ const Values = () => {
         <div sx={{
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fit, minmax(316px, 1fr))',
-          padding: ['28px', null, null, '0px'],
           gridGap: '48px',
           h1: {
             fontFamily: 'Montserrat',

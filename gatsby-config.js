@@ -45,7 +45,7 @@ module.exports = {
       },
     },
     {
-      resolve: `@fyrepenguin/gatsby-source-dega`,
+      resolve: `@factly/gatsby-source-dega`,
       options: {
         spaceId: process.env.SPACE_ID,
         accessToken: process.env.ACCESS_TOKEN,

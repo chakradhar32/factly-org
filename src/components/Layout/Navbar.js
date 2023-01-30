@@ -150,7 +150,6 @@ const Navbar = () => {
           {mobile && (
             <button
               sx={{
-                display: ['block', null, 'none'],
                 all: 'unset',
                 p: '0.5rem',
                 cursor: 'pointer',

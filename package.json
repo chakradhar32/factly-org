@@ -23,7 +23,6 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.7.1",
     "react-modal": "^3.16.1",
-    "react-paginate": "^8.1.4",
     "theme-ui": "^0.15.4"
   },
   "devDependencies": {
