@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import Members from '../components/TeamDetails/Members'
 import Form from '../components/Common/Form'
-import { Seo } from '../components/seo'
+import { Seo } from '../components/Seo'
 
 
 const TeamDetails = ({ pageContext: team }) => {

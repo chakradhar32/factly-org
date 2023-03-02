@@ -5,7 +5,7 @@ import { jsx } from 'theme-ui';
 import Services from '../components/Work/Services';
 import Header from '../components/Common/Header';
 import Form from '../components/Common/Form';
-import { Seo } from '../components/seo';
+import { Seo } from '../components/Seo';
 
 const WorkPage = () => {
   return (

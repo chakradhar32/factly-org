@@ -7,7 +7,7 @@ import Form from '../components/Common/Form'
 import { graphql } from 'gatsby';
 import BlogCard from '../components/BlogPage/BlogCard';
 import Pager from '../components/Pager';
-import { Seo } from '../components/seo';
+import { Seo } from '../components/Seo';
 
 
 const BlogPage = ({ data, pageContext }) => {
