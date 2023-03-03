@@ -11,13 +11,14 @@ import BlogCard from '../components/BlogPage/BlogCard';
 const PostPage = ({ data }) => {
   const { posts, post, recentPosts } = data;
   const currentPost = posts.edges.filter(({ node }) => node.id === post.id)[0];
-  // if (!currentPost) {
-  //   return (
-  //     <Layout>
-  //       <h3>Post not found</h3>
-  //     </Layout>
-  //   );
-  // }
+  console.log({ posts, post, recentPosts, })
+  if (!currentPost) {
+    return (
+      <Layout>
+        <h3>Post not found</h3>
+      </Layout>
+    );
+  }
   const { previous: previousPost, next: nextPost } = currentPost
   return (
     <Layout>
@@ -59,7 +60,6 @@ export const query = graphql`query ($slug: String!) {
   posts: allDegaPost(
     sort: {created_at: DESC}
     filter: {format: {slug: {eq: "article"}}}
-    limit: 24
   ) {
     edges {
       node {
