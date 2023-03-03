@@ -9,7 +9,7 @@ import WhatWeDo from '../components/Homepage/WhatWeDo';
 import About from '../components/Homepage/About';
 import Values from '../components/Homepage/Values';
 import Form from '../components/Common/Form';
-import { Seo } from '../components/seo';
+import { Seo } from '../components/Seo';
 
 
 const Homepage = () => {

@@ -2,7 +2,7 @@ import React from 'react'
 import Form from '../components/Common/Form'
 import Header from '../components/Common/Header'
 import Layout from '../components/Layout'
-import { Seo } from '../components/seo'
+import { Seo } from '../components/Seo'
 import Teams from '../components/Teams/Teams'
 import teams from '/teams.json'
 

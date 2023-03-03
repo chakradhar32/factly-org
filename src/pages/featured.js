@@ -3,7 +3,7 @@ import Form from '../components/Common/Form'
 import Header from '../components/Common/Header'
 import Products from '../components/Featured/Products'
 import Layout from '../components/Layout'
-import { Seo } from '../components/seo'
+import { Seo } from '../components/Seo'
 
 const FeaturedPage = () => {
   return (

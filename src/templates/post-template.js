@@ -4,7 +4,7 @@ import * as React from 'react';
 import { graphql } from 'gatsby';
 import Post from '../components/Post';
 import Layout from '../components/Layout';
-import { Seo } from '../components/seo';
+import { Seo } from '../components/Seo';
 import Form from '../components/Common/Form';
 import BlogCard from '../components/BlogPage/BlogCard';
 

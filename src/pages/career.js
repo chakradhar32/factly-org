@@ -4,7 +4,7 @@ import Header from '../components/Common/Header'
 import Form from '../components/Common/Form'
 import Layout from '../components/Layout'
 import Values from '../components/Career/Values'
-import { Seo } from '../components/seo'
+import { Seo } from '../components/Seo'
 
 const CareerPage = () => {
   return (
